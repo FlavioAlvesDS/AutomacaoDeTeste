@@ -46,7 +46,7 @@ public class buyProductTestCase {
 		verificationPoint.checkProduct(name);
 		String total = add.total();
 		add.checkoutSummary();
-		newUser.newAccount("flaviopereira@testeautomacao.com");
+		newUser.newAccount("flaviopereiraalves@testeautomacao.com");
 		String addressAccount = "Rua teste, 123";
 		String cityAccount = "São Paulo";
 		newUser.personalInformation("Flavio", "Pereira Alves", "teste123", addressAccount, cityAccount, "00000", "1189652389");
